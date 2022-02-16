@@ -1,0 +1,500 @@
+/*================================= comoon css =================================*/
+body {
+	font-family: 'Manrope', sans-serif;
+	touch-action: manipulation;
+	font-size:18px;
+	line-height:32px;
+	background-color:#F1E4FF;
+}
+/* custom colors, boldness, bg color class */
+.font-bold{
+	font-weight:700;
+}
+.font-regular, p{
+	font-weight:400;
+}
+.font-medium{
+	font-weight:500;
+}
+.font-extra-bold{
+	font-weight:800;
+}
+.text-black{
+	color:#18191F;
+}
+.text-light{
+	color:#D9DBE1 !important;
+}
+.text-extra-light{
+	color:#969BAB;
+}
+.text-blue, .navbar-nav-link:hover, .custom-footer a:hover{
+	color:#8C30F5 !important;
+}
+/* custom colors, boldness, bg color class */
+body,
+a,
+p,
+button, h1, h2, h3, h5, h6, span {
+	font-family: 'Manrope', sans-serif;
+}
+p{
+	font-size: 18px;
+	line-height: 32px;
+	color:#18191F;
+}
+button::-moz-focus-inner {
+	border: 0
+}
+:focus {
+	outline: none;
+}
+::-moz-focus-inner {
+    border: 0;
+}
+.bg-black{
+	background-color:#0B0D17;
+}
+.bg-blue{
+	background-color:#2EC5CE;
+}
+.section-counter,  .section-client {
+    background: #FFFAFA;
+}
+.bg-gray{
+	background-color:#F1E4FF;
+}
+button:focus {
+	outline: none;
+}
+a,
+a:hover, button, button:hover {
+	transition: all 0.5s ease 0s !important;
+}
+/*================================= 4 Global Styles (#glob) =================================*/
+h1, h1 span {
+	font-size: 72px !important;
+    line-height: 98px !important;
+}
+h2 {
+	font-size: 48px;
+    line-height: 64px;
+}
+h3, .btn-text {
+	font-size: 20px;
+	line-height: 30px !important;
+}
+h4{
+	font-size:28px;
+	line-height:40px;
+}
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+}
+h6{
+	font-size: 40px;
+	line-height:54px;
+}
+button {
+    cursor: pointer;
+}
+.navbar-light .navbar-nav-link{
+	font-size:16px !important;
+}
+.font-small, .control-btn i:before, .normal-content-icon i:before, .copyright-text{
+	font-size:14px !important;
+	line-height:24px;
+}
+.font-16{
+	font-size:16px;
+	line-height:26px;
+}
+/*================================= comoon css end =================================*/
+.sticky .fixed-top {
+	background: #fff;
+    box-shadow: -1px 4px 5px 1px rgb(20 14 20 / 11%);
+}
+img.custom-logo {
+    width: 125px;
+}
+.section-spacer {
+	padding: 80px 0px !important;
+}
+button.navbar-toggler i:before {
+	margin-left: 0px !important;
+	font-size: 18px !important;
+}
+button.navbar-toggler i.flaticon-close-1:before{font-size: 15px !important;}
+button.navbar-toggler i {
+	background: #8C30F5;
+	color: #fff;
+    border-radius: 6px;
+	width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 15px;
+	top: 20px;
+	border-radius: 10% 50%;
+}
+button.navbar-toggler i.flaticon-close-2:before {
+	font-size: 12px !important;
+}
+.sticky{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+	-webkit-box-shadow: -1px 3px 5px 1px rgba(20, 14, 20, 0.11);
+	-moz-box-shadow: -1px 3px 5px 1px rgba(20, 14, 20, 0.11);
+    box-shadow: -1px 3px 5px 1px rgba(20, 14, 20, 0.11);
+}
+.sticky a.navbar-nav-link {
+    transition: color ease-in-out .15s;
+}
+.content-wrapper{
+	overflow: hidden;
+}
+.navbar-nav-link{
+    padding: 12px 20px;
+}
+.top-banner {
+	background-image: url(../images/banner.png);
+    background-size: 100%;
+    background-position: center;
+	background-repeat: no-repeat;
+}
+.btn-blue{
+	font-size: 20px;
+    line-height: 30px;
+    background-color: #8C30F5;
+    padding: 17px 41px;
+    border-radius: 8px;
+	animation: shadow-pulse-blue 2s infinite;
+}
+.banner-right-img{
+	width: 320px;
+    height: 640px;
+    object-fit: contain;
+    top: 50px;
+}
+a.bottom-slide {
+	width: 70px;
+    height: 70px;
+    box-shadow: 0px 4px 13px rgb(140 48 245 / 12%);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index: 99;
+    top: -30px;
+}
+.counter-inner-block {
+    background: #D5FAFC;
+    border-radius: 20px 0px;
+    padding: 36px 30px;
+}
+.section-manage.bg-blue {
+    border-top-right-radius: 200px;
+}
+img.img-bottom {
+    position: absolute;
+    bottom: 0;
+	left: -30px;
+}
+.section-contact-content{
+	border-radius:16px;
+}
+.shape{
+	background-image: url(../images/count-bg.png);
+    background-size: 100% 100%;
+    width: 144px;
+    height: 84px;
+	bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 48%);
+	z-index: 9;
+}
+.shape-icon{
+	width: 36px;
+	height: 36px;
+    object-fit: contain;
+}
+img.shape-bottom {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+.counter-block{
+	width:270px
+}
+img.section-center-img {
+    width: 270px;
+}
+.bottom-shape-img:after {
+	content: "";
+    width: 68%;
+    height: 68%;
+    position: absolute;
+    top: -16px;
+    left: 0;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    border: 3px solid #65B1DB;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border-top: 0;
+}
+img.section-center-img {
+    width: 270px;
+    position: relative;
+    z-index: 99;
+}
+.client-block {
+    padding: 32px;
+    box-shadow: 0px 10px 20px rgb(41 41 42 / 7%);
+    border-radius: 8px;
+}
+.section-logo .img-block {
+    box-shadow: 0px 30px 40px rgb(212 217 232 / 20%);
+    border-radius: 16px;
+    height: 96px;
+    width: 170px;
+    margin: 0 auto;
+    border: 1px solid red !important;
+    background: #fff;
+}
+.client-block-left-f, .client-block-right-bottom{
+	max-width: 350px;    
+}
+.client-block-right-top{
+	max-width:445px;
+}
+.quote-img-heading {
+    width: 142px;
+    top: -55px;
+    left: 0;
+}
+.section-stories .section-heading {
+    padding-left: 109px;
+}
+.client-block .logo-img{
+	width:140px;
+	object-fit: contain;
+}
+.quote-s-icon {
+    width: 16px;
+    top: 30px;
+    left: 0;
+}
+.section-headline-left-content{
+	border-radius: 8px;
+}
+.section-headline {
+    border-bottom-right-radius: 200px;
+}
+.section-content-end-img{
+	border-top-right-radius:16px;
+	border-bottom-right-radius:16px;
+}
+.top-banner {
+    padding-bottom: 70px;
+}
+.section-contact-content .btn-blue{
+	animation: shadow-pulse-white 2s infinite !important;
+}
+/*=================================== media query css ===================================*/
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+	.section-client .client-block{
+		padding: 60px;
+	}
+	h3, .btn-text {
+		font-size: 16px;
+		line-height: 25px !important;
+	}
+	.row {
+		margin: 0;
+	}
+	.section-headline-left-content img {
+		width: 100%;
+	}
+	.section-contact-content .col-md-5 {
+		padding-right: 0 !important;
+	}
+	.client-block-left-f, .client-block-right-bottom, .client-block-right-top {
+		max-width: 100%;
+	}
+	.col{
+		flex-basis: auto;
+	}
+	p{
+		font-size: 15px;
+	}
+	img.img-bottom{
+		position: unset;
+	}
+	.cursor{
+		display:none;
+	}
+	.section-stories .section-heading {
+		padding-left: 18px;
+	}
+	.quote-img-heading {
+		width: 93px;
+		top: -20px;
+	}
+	.custom-footer .col-md-4{
+		justify-content: center !important;
+    margin-top: 30px;
+	}
+	h2 {
+		font-size: 30px;
+		line-height: 45px;
+	}
+	a.bottom-slide{
+		left: 42%;
+	}
+	.counter-block{
+		margin-bottom: 80px !important;
+	}
+	.top-banner{
+		background-size: cover;
+		padding-top: 100px !important;
+	}
+	.float-right {
+		float: none !important;
+	}
+	.main-menuright img {
+		margin-left: 30px !important;
+		margin-bottom: 13px !important;
+	}
+	.main-menuright a {
+		display: block;
+	}
+	.btn-blue{
+		font-size: 14px;
+	}
+	.banner-right-img{
+		top: 15px;
+	}
+	h1, h1 span {
+		font-size: 25px !important;
+		line-height: 35px !important;
+		text-align: center;
+	}
+	.navbar-brand img {
+		width: 50%;
+    position: relative;
+    top: 0;
+	}	
+	.navbar-nav-link, .sticky a.navbar-nav-link {
+		padding: 20px 1rem 10px !important;
+    	color: #fff;
+	}
+	#navbar-navigation {
+		position: fixed;
+		top: 0;
+		left: 0px;
+		z-index: 99;
+		width: 100%;
+		height: 100%;
+		background-color: #8C30F5;
+		overflow: hidden;
+		right: 0px;
+	}
+	ul.nav.navbar-nav {	
+		margin: 50px 35px 15px!important;
+	}	
+	.navbar-nav-link{
+		font-size: 14px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.section-headline-left-content img {
+		width: 100%;
+	}
+	.banner-right-img{
+		width: 100%;
+	}
+	.float-right {
+		float: none !important;
+	}
+	h1, h1 span {
+		font-size: 35px !important;
+		line-height: 45px !important;
+	}
+	.client-block{
+		padding: 6px;
+	}
+	.counter-block {
+		width: 100%;
+	}
+	h2 {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	h3, .btn-text {
+		font-size: 15px;
+		line-height: 20px !important;
+	}
+	.navbar-nav-link, .sticky a.navbar-nav-link {
+		padding: 16px 50px 10px !important;
+		display: block !important;
+		color: #fff;
+	}
+	ul.center-menu {
+		margin-top: 60px;
+	}
+	#navbar-navigation {
+		position: fixed;
+		top: 0;
+		left: 0px;
+		z-index: 99;
+		width: 100%;
+		height: 100%;
+		background-color: #8C30F5;
+		overflow: hidden;
+		right: 0px;
+	}
+}
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+	.navbar-nav-link {
+		padding: 12px 8px;
+	}
+	h1, h1 span {
+		font-size: 40px !important;
+		line-height: 45px !important;
+	}
+	.client-block{
+		padding: 25px;
+	}
+	.navbar-nav-link {
+		padding: 12px 8px;
+	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+	.navbar-nav-link {
+		padding: 12px 8px;
+	}
+	h1, h1 span {
+		font-size: 50px !important;
+		line-height: 65px !important;
+	}
+	.client-block{
+		padding: 25px;
+	}
+	h2 {
+		font-size: 30px;
+		line-height: 45px;
+	}
+}
+@media (min-width: 1500px) {
+	.container {
+		max-width: 1440px !important;
+	}	    
+}
